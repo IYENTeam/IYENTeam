@@ -1,0 +1,36 @@
+name: Render Agent OS
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/render-profile.mjs"
+      - ".github/workflows/render-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-agent-os
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Render live profile assets
+        run: node scripts/render-profile.mjs
+      - name: Commit refreshed signals
+        run: |
+          git config user.name "iyen-agent-os[bot]"
+          git config user.email "iyen-agent-os[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --cached --quiet || git commit -m "chore: refresh agent os signals"
+          git push
