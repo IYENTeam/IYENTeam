@@ -15,14 +15,14 @@
 </style>
 <rect width="100%" height="100%" rx="14" fill="#09090b"/><rect x="1" y="1" width="898" height="388" rx="13" fill="none" stroke="#41111f"/>
 <text x="24" y="31" class="mono label">MISSION CONTROL</text>
-<text x="876" y="31" text-anchor="end" class="mono pink" font-size="11">4 AGENTS // 61 STARS // NOMINAL</text>
+<text x="876" y="31" text-anchor="end" class="mono pink" font-size="11">4 AGENTS // 62 STARS // NOMINAL</text>
 <g transform="translate(24 70)">
    <rect width="402" height="126" rx="10" fill="#100b0e" stroke="#41111f"/>
    <rect width="5" height="126" rx="2" fill="#ff4d8d"/>
    <text x="25" y="28" class="mono label">NODE 01 // EMOTION LAYER</text>
    <text x="25" y="59" class="mono white" font-size="21" font-weight="700">HENT-AI</text>
    <text x="25" y="83" class="mono muted" font-size="12">Intent becomes visible.</text>
-   <text x="25" y="108" class="mono pink" font-size="11">TYPESCRIPT  ·  ★ 61  ·  ONLINE</text>
+   <text x="25" y="108" class="mono pink" font-size="11">TYPESCRIPT  ·  ★ 62  ·  ONLINE</text>
    <circle cx="369" cy="28" r="5" fill="#ff4d8d" style="animation:pulse 1.8s infinite"/>
   </g><g transform="translate(450 70)">
    <rect width="402" height="126" rx="10" fill="#100b0e" stroke="#41111f"/>
