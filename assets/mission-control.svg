@@ -38,7 +38,7 @@
    <text x="25" y="28" class="mono label">NODE 03 // EVENT ROUTER</text>
    <text x="25" y="59" class="mono white" font-size="21" font-weight="700">CLAWHIP</text>
    <text x="25" y="83" class="mono muted" font-size="12">Hooks in. Signals out.</text>
-   <text x="25" y="108" class="mono pink" font-size="11">SYSTEM  ·  ★ 0  ·  ONLINE</text>
+   <text x="25" y="108" class="mono pink" font-size="11">RUST  ·  ★ 0  ·  ONLINE</text>
    <circle cx="369" cy="28" r="5" fill="#ff4d8d" style="animation:pulse 2.4s infinite"/>
   </g><g transform="translate(450 220)">
    <rect width="402" height="126" rx="10" fill="#100b0e" stroke="#41111f"/>
